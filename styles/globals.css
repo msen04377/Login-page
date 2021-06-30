@@ -4,6 +4,7 @@
 
 * {
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -107,6 +108,14 @@ span.h5
         margin-right: 55px;
         font-weight: bold;
     }
+
+span.forget_2
+    {
+        font-size: 17px;
+		line-height: 30px;
+		margin-right: 135px;
+		font-weight: bold;
+    }	
 
 .container {
 	background-color: #fff;
@@ -282,10 +291,6 @@ span.h5
   margin: 0 !important;
 }
 
-/* .checkbox_input{
-  display: flex;
-} */
-
 .checkbox_input a{ 
     font-size: 12px; 
     margin-left: 52px;
@@ -325,4 +330,59 @@ span.h5
     top: 25px;
     font-size: 10px;
     letter-spacing: -0.64px;
+}
+
+/* ---------Login 2---------- */
+
+.form_2 {
+	background-color: #FFFFFF;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+.otp_right{
+	margin-right: 4.75rem;
+}
+.otp{
+	margin-top: 10px;
+	text-align: center;
+    width: 42px;
+    height: 42px;
+    background: rgba(227, 224, 243, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 0;
+}
+
+.resend_code {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+	font-weight: bold;
+}
+
+.resend_code > a{
+	color: #1A73E9;
+}
+
+p.otp_time {
+    margin-left: 9.89rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.login_2{
+	margin-top:0;
+}
+
+.back{
+	font-weight: bold;
+	margin-left: 1.6rem;
 }
