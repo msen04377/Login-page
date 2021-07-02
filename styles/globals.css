@@ -384,5 +384,6 @@ p.otp_time {
 
 .back{
 	font-weight: bold;
-	margin-left: 1.6rem;
+	margin-left: 2.1rem;
+    font-size: 11px;
 }
